@@ -30,10 +30,7 @@ class Person:
         return self.age
     
     def greet(self):
-        print(f"Hello {self.name}")
-    
-    
-    
+        print("Hello" + self.name)
     
 class Car:
     def __init__(self, brand, model, displ, drive, age = 0):
