@@ -47,19 +47,19 @@ class Car:
         self.drive = drive
         self.age = age
         
-        def display_info(self):
-            print(f"{self.colour},{self.brand},{self.model},{self.displ},{self.age}")
+    def display_info(self):
+        print(f"{self.colour},{self.brand},{self.model},{self.displ},{self.age}")
         
-        def add_turbo():
-            return
+    def add_turbo():
+        return
         
-        def engine_swap():
-            return
+    def engine_swap():
+        return
         
-        def wrap_colour():
-            return
+    def wrap_colour():
+        return
         
-        def add_mileage():
-            return
+    def add_mileage():
+        return
         
         
