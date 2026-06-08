@@ -38,14 +38,21 @@ class Person:
         
     
 class Car:
-    def __init__(self, brand, model, displ, drive, age = 0):
+    def __init__(self, brand:str, model:str, displ:float, mileage:float, drive:str, age = 0):
         self.brand = brand
         self.model = model
         self.displ = displ
+        self.mileage = mileage
         self.drive = drive
         self.age = age
         
+        def display_info(self):
+            print(f"{self.brand},{self.model},{self.displ},{self.age}")
+        
         def add_turbo():
+            return
+        
+        def add_mileage():
             return
         
         
