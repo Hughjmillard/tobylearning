@@ -30,7 +30,7 @@ class Person:
         return self.age
     
     def greet(self):
-        print(f"Hello {name}")
+        print(f"Hello {self.name}")
     
     
     
