@@ -48,7 +48,7 @@ class Car:
         self.age = age
         
         def display_info(self):
-            print(f"{self.colour},{self.brand},{self.model},{self.displ},{self.age},")
+            print(f"{self.colour},{self.brand},{self.model},{self.displ},{self.age}")
         
         def add_turbo():
             return
